@@ -1,0 +1,14 @@
+redis configs:
+sudo apt install redis-server
+sudo nano /etc/redis/redis.conf
+find: supervised no -> supervised systemd
+sudo systemctl restart redis.service (stop, start)
+sudo systemctl status redis (active)
+
+celery configs:
+pip3 install Celery
+add configs to project settings(for redis)
+add celery.py file
+@app.task -> func
+func(*args, **kwargs) -> func.delay(*args, **kwargs)
+celery -A "project_name" worker -l info
