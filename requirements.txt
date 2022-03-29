@@ -1,0 +1,44 @@
+Collecting drf-yasg
+  Using cached drf_yasg-1.20.0-py2.py3-none-any.whl (1.6 MB)
+Collecting coreapi>=2.3.3
+  Using cached coreapi-2.3.3-py2.py3-none-any.whl (25 kB)
+Collecting packaging
+  Using cached packaging-21.3-py3-none-any.whl (40 kB)
+Collecting inflection>=0.3.1
+  Using cached inflection-0.5.1-py2.py3-none-any.whl (9.5 kB)
+Collecting coreschema>=0.0.4
+  Using cached coreschema-0.0.4.tar.gz (10 kB)
+Collecting ruamel.yaml>=0.15.34
+  Using cached ruamel.yaml-0.17.21-py3-none-any.whl (109 kB)
+Requirement already satisfied: Django>=2.2.16 in ./env/lib/python3.9/site-packages (from drf-yasg) (4.0.3)
+Requirement already satisfied: djangorestframework>=3.10.3 in ./env/lib/python3.9/site-packages (from drf-yasg) (3.13.1)
+Collecting uritemplate>=3.0.0
+  Using cached uritemplate-4.1.1-py2.py3-none-any.whl (10 kB)
+Collecting itypes
+  Using cached itypes-1.2.0-py2.py3-none-any.whl (4.8 kB)
+Collecting requests
+  Using cached requests-2.27.1-py2.py3-none-any.whl (63 kB)
+Collecting jinja2
+  Downloading Jinja2-3.1.1-py3-none-any.whl (132 kB)
+Requirement already satisfied: sqlparse>=0.2.2 in ./env/lib/python3.9/site-packages (from Django>=2.2.16->drf-yasg) (0.4.2)
+Requirement already satisfied: asgiref<4,>=3.4.1 in ./env/lib/python3.9/site-packages (from Django>=2.2.16->drf-yasg) (3.5.0)
+Requirement already satisfied: pytz in ./env/lib/python3.9/site-packages (from djangorestframework>=3.10.3->drf-yasg) (2022.1)
+Collecting ruamel.yaml.clib>=0.2.6
+  Using cached ruamel.yaml.clib-0.2.6-cp39-cp39-manylinux1_x86_64.whl (539 kB)
+Collecting MarkupSafe>=2.0
+  Downloading MarkupSafe-2.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+Collecting pyparsing!=3.0.5,>=2.0.2
+  Using cached pyparsing-3.0.7-py3-none-any.whl (98 kB)
+Collecting charset-normalizer~=2.0.0
+  Using cached charset_normalizer-2.0.12-py3-none-any.whl (39 kB)
+Collecting certifi>=2017.4.17
+  Using cached certifi-2021.10.8-py2.py3-none-any.whl (149 kB)
+Collecting urllib3<1.27,>=1.21.1
+  Downloading urllib3-1.26.9-py2.py3-none-any.whl (138 kB)
+Collecting idna<4,>=2.5
+  Using cached idna-3.3-py3-none-any.whl (61 kB)
+Using legacy 'setup.py install' for coreschema, since package 'wheel' is not installed.
+Installing collected packages: MarkupSafe, urllib3, jinja2, idna, charset-normalizer, certifi, uritemplate, ruamel.yaml.clib, requests, pyparsing, itypes, coreschema, ruamel.yaml, packaging, inflection, coreapi, drf-yasg
+    Running setup.py install for coreschema: started
+    Running setup.py install for coreschema: finished with status 'done'
+Successfully installed MarkupSafe-2.1.1 certifi-2021.10.8 charset-normalizer-2.0.12 coreapi-2.3.3 coreschema-0.0.4 drf-yasg-1.20.0 idna-3.3 inflection-0.5.1 itypes-1.2.0 jinja2-3.1.1 packaging-21.3 pyparsing-3.0.7 requests-2.27.1 ruamel.yaml-0.17.21 ruamel.yaml.clib-0.2.6 uritemplate-4.1.1 urllib3-1.26.9
